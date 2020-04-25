@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+  <title> qwi09_webled </title>
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <script>
+  </script>
+</head>
+
+<body>
+
+<img src="images/logo.gif" style="padding-left:20px"></img>
+
+<div id="container">
+<b class="rtop">
+  <b class="r1"></b> <b class="r2"></b> <b class="r3"></b> <b class="r4"></b>
+</b>
+
+<h1>qwi09_webled</h1>
+
+<p> qwi09_webled is a LED control program that using a WebServer for switch on or off a LED. The WebServer is based on the Xilinx reference design XAPP1026. </p>
+
+<h2> XAPP1026: Xilinx Web Server Demo </h2>
+<p> Hello! This is a demonstration of a simple embedded webserver created using lwIP. Using the lwIP networking stack, a webserver can be easily embedded into your software application. A webserver provides an easy method to control or monitor the embedded platform via an Internet browser. </p>
+
+<h2> Controlling the Embedded System </h2>
+<p>
+The LED on the board can be switched on or off by clicking on the 'Toggle LED' button.
+</p>
+<div id="led_results">
+<p><span style="background:#ffffaa">LED are now OFF.</span></p>
+</div>
+<form class="forms" id="led_form" method="post" action="cmd/led">
+<input type="submit" value="Toggle LED" disabled="true"></input>
+</form>
+
+<h2> External Links </h2>
+<p>
+<i> (Note that these links point to locations not served by the embedded webserver)</i>
+<ul>
+<li> <a href="http://savannah.nongnu.org/projects/lwip/">lwIP Home Page</a> </li>
+<li> <a href="http://www.xilinx.com">Xilinx</a></li>
+<li> This webpage utilizes <a href="http://developer.yahoo.com/yui/">YUI</a> JavaScript libraries.
+</ul>
+</p>
+
+<b class="rbottom">
+  <b class="r4"></b> <b class="r3"></b> <b class="r2"></b> <b class="r1"></b>
+</b>
+</div>
+  <script type="text/javascript" src="yui/yahoo.js"></script>
+  <script type="text/javascript" src="yui/dom.js"></script>
+  <script type="text/javascript" src="yui/event.js"></script>
+  <script type="text/javascript" src="yui/conn.js"></script>
+  <script type="text/javascript" src="yui/anim.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
